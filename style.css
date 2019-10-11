@@ -151,13 +151,18 @@ a:hover, a:focus, a:active, a:visited {
         }
 /* Social Media icons */
 ul.social li {
+	width: 20px;
+	weight: 20px;
 	list-style: none;
 	display: inline-block;
 	margin: 10px 5px;
+	border: 2px solid #e2e2e2;
+	border-radius: 50%;
+	paddinhg: 10px;
 }
 ul.social li a {
 	
-	padding: 0 10px;
+	// padding: 0 10px;
 }
 .fa{
 	color:#016cc7;
